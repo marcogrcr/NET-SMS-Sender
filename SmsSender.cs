@@ -64,7 +64,7 @@ namespace NetSmsSender
 
             if (string.IsNullOrWhiteSpace(text))
             {
-                throw new ArgumentNullException("A text must be specified.", "text");
+                throw new ArgumentNullException("text", "A text must be specified.");
             }
 
             // Port creation.
